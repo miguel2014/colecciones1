@@ -7,6 +7,7 @@ public class Inicial {
 	public static void main(String[] args) {
 		//Constante
 		final int TAMAÑO=5;
+		//Definimos una coleccion de dobles
 		double[] valores=new double[TAMAÑO];
 		Scanner in=new Scanner(System.in);
 		//Inicializar los valores del array
