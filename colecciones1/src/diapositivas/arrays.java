@@ -16,11 +16,11 @@ public class arrays {
 		int numeromedia=0;
 		//Mostramos todos los valores
 		//Valores.length=4
-		//Valores[0].length=3
+		//Valores[0].length=3 == valores[i].length ya que i=0
 		//Despues de mostrar le sumamos los valores en suma y en numeromedia para mostrar el 
 		//total de valores 4*3=12
 		for (int i = 0; i < valores.length; i++) {
-			for (int c = 0; c < valores[0].length; c++) {
+			for (int c = 0; c < valores[i].length; c++) {
 				System.out.print(valores[i][c]+"\t");
 				suma+=valores[i][c];
 				numeromedia++;
