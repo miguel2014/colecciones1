@@ -1,7 +1,5 @@
 package diapositivas;
 
-import javax.print.attribute.standard.NumberOfInterveningJobs;
-
 public class arrays {
 	public static void main(String[] args) {
 		
