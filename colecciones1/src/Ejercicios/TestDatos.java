@@ -6,6 +6,7 @@ import java.util.List;
 public class TestDatos {
 
 	public static void main(String[] args) {
+		//Creamos un Arraylist y le añadimos datos
 		List<Double> lista=new ArrayList<Double>();
 		lista.add(new Double(12));
 		lista.add(new Double(15));
@@ -15,7 +16,9 @@ public class TestDatos {
 		lista.add(new Double(2));
 		lista.add(new Double(21));
 		lista.add(new Double(15));
+		//Creamos la coleccion array con el tamaño de lista
 		double[] array=new double[lista.size()];
+		//Pasamos los datos del arraylist a array y luego se lo pasamos al constructor
 		for (int i = 0; i < array.length; i++) {
 			array[i]=lista.get(i);
 		}
