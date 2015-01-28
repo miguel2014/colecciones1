@@ -50,7 +50,7 @@ public class Tienda {
 	 */
 	@Override
 	public String toString() {
-		return "Tienda [" + listaTienda + "]";
+		return "Tienda \n" + listaTienda;
 	}
 	
 	
