@@ -19,7 +19,7 @@ public class TestTienda {
 			String nombreProducto=in.next();
 			if (nombreProducto.equals("Salte"))
 				break;
-
+			in.close();
 			System.out.println("Introduce precio:");
 			Double PrecioProducto=in.nextDouble();
 			
